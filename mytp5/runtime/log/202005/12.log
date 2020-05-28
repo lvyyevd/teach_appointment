@@ -1,0 +1,93 @@
+---------------------------------------------------------------
+[ 2020-05-12T08:06:38+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/index.html
+[运行时间：0.279622s] [吞吐率：3.58req/s] [内存消耗：2,961.73kb] [文件加载：58]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'referer' => 'http://127.0.0.1/mytp5/public/index/index/test.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=305qo3i2eqa0gak0jpujr24b30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013772s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.038690s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `pre_active` LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` LIMIT 0,5 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2020-05-12T08:06:38+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/test.html
+[运行时间：0.065106s] [吞吐率：15.36req/s] [内存消耗：2,853.77kb] [文件加载：54]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'referer' => 'http://127.0.0.1/mytp5/public/index/index/test.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=305qo3i2eqa0gak0jpujr24b30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->test[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\test.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011482s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.008117s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000413s ]

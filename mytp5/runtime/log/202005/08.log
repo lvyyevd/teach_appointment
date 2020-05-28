@@ -1,0 +1,466 @@
+---------------------------------------------------------------
+[ 2020-05-08T21:57:18+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.412595s] [吞吐率：2.42req/s] [内存消耗：2,984.04kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002576s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.046138s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.001331s ]
+---------------------------------------------------------------
+[ 2020-05-08T21:58:40+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.137505s] [吞吐率：7.27req/s] [内存消耗：2,980.23kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.007785s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000302s ]
+[ error ] [4]语法错误: unexpected '" data-toggle="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:38]
+---------------------------------------------------------------
+[ 2020-05-08T21:59:00+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.053231s] [吞吐率：18.79req/s] [内存消耗：2,980.16kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002351s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.007393s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000288s ]
+[ error ] [4]语法错误: unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:38]
+---------------------------------------------------------------
+[ 2020-05-08T21:59:37+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.061442s] [吞吐率：16.28req/s] [内存消耗：2,979.88kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011541s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.008838s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.001171s ]
+[ error ] [4]语法错误: unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T21:59:37+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.059295s] [吞吐率：16.86req/s] [内存消耗：2,822.04kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001876s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.010305s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000389s ]
+[ error ] [4]语法错误: unexpected '"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T21:59:52+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.068483s] [吞吐率：14.60req/s] [内存消耗：2,979.90kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011537s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.007993s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000358s ]
+[ error ] [4]语法错误: unexpected '" data-toggle="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:36]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:28+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.060647s] [吞吐率：16.49req/s] [内存消耗：2,979.80kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010556s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.008678s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000429s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:57+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.212081s] [吞吐率：4.72req/s] [内存消耗：2,979.90kb] [文件加载：57]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.164266s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.009151s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000388s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:58+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.065953s] [吞吐率：15.16req/s] [内存消耗：2,821.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011397s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.008614s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000383s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:58+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.056499s] [吞吐率：17.70req/s] [内存消耗：2,821.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012703s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.007153s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000384s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:58+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.057680s] [吞吐率：17.34req/s] [内存消耗：2,821.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011712s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.008681s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000388s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
+---------------------------------------------------------------
+[ 2020-05-08T22:00:58+08:00 ] 127.0.0.1 GET 127.0.0.1/mytp5/public/index/index/
+[运行时间：0.053942s] [吞吐率：18.54req/s] [内存消耗：2,821.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mytp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36',
+  'sec-fetch-dest' => 'document',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\IndexController->index[ E:\phpstudy\PHPTutorial\WWW\mytp5\application\index\controller\IndexController.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\phpstudy\PHPTutorial\WWW\mytp5\public/../application/index\view\index\index.html [ array (
+  0 => 'actives',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010573s ] mysql:host=127.0.0.1;dbname=appoint;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pre_active` [ RunTime:0.006995s ]
+[ sql ] [ SQL ] SELECT * FROM `pre_active` [ RunTime:0.000438s ]
+[ error ] [4]语法错误: unexpected 'modal' (T_STRING), expecting ',' or ';'[E:\phpstudy\PHPTutorial\WWW\mytp5\runtime\temp\00b37b410621f4b1fd1c872e2363ca5a.php:37]
